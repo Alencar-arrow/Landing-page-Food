@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/geral.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <title>Landing page</title>
+</head>
+
+<body>
+    <header>
+        <nav id="navbar">
+            <i class="fa-solid fa-burger" id="nav_logo"> food</i>
+            <ul id="nav_list">
+                <li class="nav-item active">
+                    <a href="#home">Início</a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="#menu">Cardápio</a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="#testimonials">Avaliações</a>
+                </li>
+            </ul>
+
+            <button class="btn-default">
+                Peça aqui
+            </button>
+
+            <button id="mobile_btn">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+
+        </nav>
+
+        <div id="mobile_menu">
+            <ul id="mobile_nav_list">
+                <li class="nav-item">
+                    <a href="#home">Início</a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="#menu">Cardápio</a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="#testimonials">Avaliações</a>
+                </li>
+            </ul>
+
+            <button class="btn-default">
+                Peça aqui
+            </button>
+
+        </div>
+    </header>
+
+    <main id="content">
+        <section id="home">
+            <div class="shape"></div>
+            <div id="cta">
+                <h1 class="title">
+                    O sabor que vai até
+                    <span>você</span>
+                </h1>
+
+                <p class="description">
+                    Feito com ingredientes selecionados e muito carinho. Peça online e receba seu pedido quentinho no conforto da sua casa!
+                </p>
+
+                <div id="cta_buttons">
+                    <a href="#menu" class="btn-default">
+                        Ver cardápio
+                    </a>
+
+                    <a href="tel:+5511999238843" id="phone_button">
+                        <button class="btn-default">
+                            <i class="fa-solid fa-phone"></i>
+                        </button>
+                        <div id="phone_numero">(11) 99923-8843</div>
+
+                    </a>
+                </div>
+
+                <div class="social-midia-buttons">
+                    <a href="">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+
+                    <a href="">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+
+                    <a href="">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div id="banner">
+                <img src="/Landing page/img/hero.png" alt="Hambúrguer especial da casa">
+            </div>
+
+        </section>
+
+        <section id="menu">
+            <h2 class="section-title">Cardápio</h2>
+            <h3 class="section-subtitle">Nossos pratos especiais</h3>
+
+            <div id="dishes">
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="/Landing page/img/dish.png" class="dish-image" alt="Hambúrguer Gourmet">
+
+                    <h3 class="dish-title">
+                        Burger Classic
+                    </h3>
+
+                    <span class="dish-description">
+                        Pão artesanal, hambúrguer de carne 180g, queijo derretido, alface e molho da casa.
+                    </span>
+
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(500+)</span>
+                    </div>
+
+                    <div class="dish-price">
+                        <h4>R$ 28,00</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="/Landing page/img/dish2.png" class="dish-image" alt="Combo Especial">
+
+                    <h3 class="dish-title">
+                        Combo Galera
+                    </h3>
+
+                    <span class="dish-description">
+                        Seleção completa de pratos, aperitivos crocantes e bebidas para compartilhar.
+                    </span>
+
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(500+)</span>
+                    </div>
+
+                    <div class="dish-price">
+                        <h4>R$ 65,00</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="/Landing page/img/dish3.png" class="dish-image" alt="Feijoada Completa">
+
+                    <h3 class="dish-title">
+                        Feijoada Especial
+                    </h3>
+
+                    <span class="dish-description">
+                        Feijoada completa com carnes nobres, acompanhada de arroz, couve refogada e farofa.
+                    </span>
+
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(500+)</span>
+                    </div>
+
+                    <div class="dish-price">
+                        <h4>R$ 42,00</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="/Landing page/img/dish4.png" class="dish-image" alt="Porção de Salgados">
+
+                    <h3 class="dish-title">
+                        Porção de Salgados
+                    </h3>
+
+                    <span class="dish-description">
+                        Mix de coxinhas, kibe e bolinhas de queijo douradinhos e bem recheados.
+                    </span>
+
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(500+)</span>
+                    </div>
+
+                    <div class="dish-price">
+                        <h4>R$ 35,00</h4>
+
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="testimonials">
+            <img src="/Landing page/img/chef.png" id="testimonials_chefe" alt="Chefe de Cozinha">
+
+            <div id="testimonials_content">
+                <h2 class="section-title">Depoimentos</h2>
+                <h3 class="section-subtitle">
+                    O que os clientes falam sobre nós
+                </h3>
+
+                <div id="feedbacks">
+                    <div class="feedback">
+                        <img src="/Landing page/img/avatar.png" class="feedback-avatar" alt="Foto de Mariana Silva">
+
+                        <div class="feedback-content">
+                            <p>
+                                Mariana Silva
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </span>
+                            </p>
+                            <p>
+                                "A comida chegou super quente e no tempo certinho! O hambúrguer é simplesmente espetacular, com certeza viramos clientes fieis aqui em casa."
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="feedback">
+                        <img src="/Landing page/img/avatar.png" class="feedback-avatar" alt="Foto de Carlos Eduardo">
+
+                        <div class="feedback-content">
+                            <p>
+                                Carlos Eduardo
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </span>
+                            </p>
+                            <p>
+                                "A feijoada tem um tempero incrível e os salgadinhos são extremamente crocantes. Atendimento de primeira e entrega rápida!"
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <button class="btn-default">
+                    Ver mais avaliações
+                </button>
+            </div>
+        </section>
+
+        <section id="slide">
+            <div class="slider">
+                <div class="slides">
+                    <input type="radio" name="radio-btn" id="radio_1" checked>
+                    <input type="radio" name="radio-btn" id="radio_2">
+                    <input type="radio" name="radio-btn" id="radio_3">
+                    <input type="radio" name="radio-btn" id="radio_4">
+
+                    <div class="slide-track">
+                        <div class="slide"><img src="img/image1.png" alt="Hambúrguer com batatas fritas"></div>
+                        <div class="slide"><img src="img/image2.png" alt="Mesa variada com pizzas e bebidas"></div>
+                        <div class="slide"><img src="img/image3.png" alt="Feijoada caseira completa"></div>
+                        <div class="slide"><img src="img/image4.png" alt="Porção de salgados fritos"></div>
+                    </div>
+
+                    <div id="navigation_auto">
+                        <div id="auto_btn1"></div>
+                        <div id="auto_btn2"></div>
+                        <div id="auto_btn3"></div>
+                        <div id="auto_btn4"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <img src="/Landing page/img/wave.svg" alt="">
+        <div id="footer_items">
+            <span id="copyright">
+                &copy; 2026 Alencar
+            </span>
+
+            <div class="social-midia-buttons">
+                <a href="">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </a>
+
+                <a href="">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+
+                <a href="">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+    <script src="/Landing page/JavaScript/script.js"></script>
+    <script src="/Landing page/JavaScript/animaions.js"></script>
+    <script src="/Landing page/JavaScript/slide.js"></script>
+</body>
+
+</html>
