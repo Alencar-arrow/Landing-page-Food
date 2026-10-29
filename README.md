@@ -1,6 +1,6 @@
 <div align="center">
 
-  <h1>🍔 F O O D</h1>
+  <h1>F O O D</h1>
 
   <p align="center">
     O sabor que vai até você. Feito com ingredientes selecionados e muito carinho para o conforto da sua casa!
